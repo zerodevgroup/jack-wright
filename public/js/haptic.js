@@ -9,3 +9,5 @@ class Haptic {
 }
 
 let haptic = new Haptic()
+
+haptic.info()
