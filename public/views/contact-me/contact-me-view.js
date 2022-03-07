@@ -1,14 +1,14 @@
-class LifeguardView {
+class ContactMeView {
   constructor() {
   }
  
  async render() {
     let content = document.getElementById("content")
-    content.innerHTML = await haptic.fetchHtml("/views/lifeguard/lifeguard-view.html")
+    content.innerHTML = await haptic.fetchHtml("/views/contact-me/contact-me-view.html")
   }
 
   async animate() {
-    let view = document.getElementById("lifeguardView")
+    let view = document.getElementById("contactMeView")
 
     let opacity = 0
     let interval = setInterval(() => {

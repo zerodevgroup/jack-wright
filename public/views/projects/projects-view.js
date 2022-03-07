@@ -1,14 +1,14 @@
-class DiscordBotView {
+class ProjectsView {
   constructor() {
   }
  
  async render() {
     let content = document.getElementById("content")
-    content.innerHTML = await haptic.fetchHtml("/views/discord-bot/discord-bot-view.html")
+    content.innerHTML = await haptic.fetchHtml("/views/projects/projects-view.html")
   }
 
   async animate() {
-    let view = document.getElementById("discordBotView")
+    let view = document.getElementById("ProjectsView")
 
     let opacity = 0
     let interval = setInterval(() => {
